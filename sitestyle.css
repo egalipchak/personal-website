@@ -1,0 +1,102 @@
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body, html {
+    height: 100%; 
+}
+
+b {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2.7vw;
+  color: #FFFFFF;
+  text-shadow: -0.5px 0.5px #505050;
+  float: right;
+}
+
+h1 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 3.7vw;
+  color: #FFFFFF;
+  text-shadow: -0.5px 0.5px #505050;
+}
+
+h2 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2.7vw;
+  text-shadow: -0.5px 0.5px #505050;
+  color: #FFFFFF;
+  float: left;
+}
+
+h4 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2.7vw;
+  color: #FFFFFF;
+  text-shadow: -0.5px 0.5px #505050;
+}
+
+p,h1,body,html {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+  float: right;
+  display: inline;
+}
+
+a {
+    display: inline-block;
+    height: 60px;
+    width: 70px;
+}
+
+p.name {
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: -0.5px 0.5px #505050;
+    float: left;
+    color: #006600;
+    font-weight: bold;
+}
+
+#top {
+    height: 20%;
+    width: 100%;
+}
+
+#nav {
+    height: 20%
+    font-size: 2.7vw;
+    width: 75%;
+    float: right;
+}
+
+#middle {
+    height: 35%;
+    width: 100%;
+    clear: both;
+}
+
+#right {
+    height: 75%;
+    width: 75%;
+    font-size: 2.7vw;
+    display: block;
+}
+
+#left {
+    height: 75%;
+    width: 25%;
+    float: left;
+}
+
+#bottom {
+    height: 15%;
+    width: 100%;
+    float: right;
+}
